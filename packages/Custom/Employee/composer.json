@@ -1,0 +1,29 @@
+{
+    "name": "custom/employee",
+    "description": "CRUD for employee package",
+    "type": "libraray",
+    "require": {
+        "php": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Custom\\Employee\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pradeepika",
+            "email": "pradeepika@oonewoo.tech"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Custom\\Employee\\EmployeeServiceProvider"
+            ]
+        }
+    }
+}

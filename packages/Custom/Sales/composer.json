@@ -1,0 +1,29 @@
+{
+    "name": "custom/sales",
+    "description": "Completed sales app",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Custom\\Sales\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pradeepika",
+            "email": "pradeepika@oonewoo.tech"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Custom\\Sales\\SalesServiceProvider"
+            ]
+        }
+    }
+}

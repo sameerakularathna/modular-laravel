@@ -1,0 +1,30 @@
+
+{
+    "name": "custom/student",
+    "description": "student pckage",
+    "type": "library",
+    "require": {
+        "php": "^8.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+             "Custom\\Student\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pradeep",
+            "email": "pradeep@oonewoo.tech"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Custom\\Student\\StudentServiceProvider"
+            ]
+        }
+    }
+}

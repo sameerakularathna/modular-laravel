@@ -1,0 +1,35 @@
+{
+    "name": "custom/goldrate",
+    "description": "A custom Laravel package for gold rate",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pradeep Sanjaya",
+            "email": "pradeep@oonewoo.tech"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Custom\\GoldRate\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Custom\\GoldRate\\GoldRateServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0",
+        "livewire/livewire": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
