@@ -32,7 +32,7 @@
     
         <hr class="my-6">
 
-        <h2 class="text-xl font-bold mb-4">Installed Packages</h2>
+        <h2 class="text-xl font-bold mb-4">Installed Packages123</h2>
         
   
 
